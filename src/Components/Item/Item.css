@@ -1,0 +1,92 @@
+
+.main-container {
+  text-align: center;
+}
+.main-container  h2{
+  text-align: center;
+  margin: 50px;
+}
+
+.display-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%; 
+}
+
+.container-items {
+  border: 1px solid #ddd;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.item {
+  margin: 5px 0;
+  text-align: center;
+}
+
+.display {
+  max-width: 100%;
+  height: auto;
+  max-height: 150px;
+}
+
+.text {
+  padding: 0 10px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+
+.search-container{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin:auto  ;
+  margin-top:10px;
+  width:30vw;
+  height:10vh;
+  text-align: center;
+  border:none;
+  border-radius: 10px;
+}
+
+.search-container input{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0px 30px 30px;
+  width:30vw;
+  height:10vh;
+  text-align: center;
+  border:1px solid greenyellow;
+  border-radius: 10px;
+}
+
+.search-container button{
+  margin-left: -50px;
+
+}

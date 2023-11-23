@@ -1,0 +1,15 @@
+.Footer{
+    background: red;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 30vh;
+    width:100vw;
+}
+.copyright{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    margin: 30px;
+}
